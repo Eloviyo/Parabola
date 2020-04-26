@@ -6,11 +6,12 @@ from pylab import *
 def parabola(x,a,b,c):
 	return a*x**2+b*x+c
 
+#Takes 3 input values
 a = float(input('Enter a: '))
 b = float(input('Enter b: '))
 c = float(input('Enter c: '))
 
-d = b**2-4*a*c
+d = b**2-4*a*c #calculating determinant
 
 #vertex of a parabola gives highest and lowest points on it
 x_ver = -b/(2*a)
